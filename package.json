@@ -1,21 +1,16 @@
 {
-  "name": "comoflat",
+  "name": "comoflat-backend",
   "version": "1.0.0",
-  "description": "AI Real Estate Agent - Social Network for Finding Accommodation",
-  "main": "backend/server.js",
+  "description": "ComoFlat hackathon backend",
+  "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "dev": "node backend/server.js"
+    "start": "node server.js"
   },
-  "keywords": ["accommodation", "ai-agent", "social-network", "rental"],
-  "author": "",
-  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
-    "express": "^4.18.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "openai": "^4.20.0",
-    "uuid": "^9.0.0",
-    "body-parser": "^1.20.2"
+    "express": "^4.18.3"
   }
 }
