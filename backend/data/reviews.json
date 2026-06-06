@@ -1,0 +1,11 @@
+[
+  {
+    "id": "review_1",
+    "listingId": "listing_1",
+    "userId": "user_2",
+    "userName": "sarah_tenant",
+    "rating": 5,
+    "text": "Great apartment and very responsive landlord!",
+    "createdAt": "2026-06-04T10:00:00Z"
+  }
+]
