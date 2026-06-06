@@ -1,0 +1,90 @@
+[
+  {
+    "id": "listing_1",
+    "title": "Beautiful Studio in Downtown Berlin",
+    "description": "Modern studio apartment in the heart of Berlin. Walking distance to U-Bahn. Fully furnished with kitchen.",
+    "price": 800,
+    "currency": "EUR",
+    "location": "Berlin, Germany",
+    "neighborhood": "Mitte",
+    "type": "studio",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFeet": 450,
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=500"
+    ],
+    "images360": [
+      {
+        "roomName": "Living Room",
+        "imageUrl": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800"
+      },
+      {
+        "roomName": "Bedroom",
+        "imageUrl": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800"
+      }
+    ],
+    "amenities": ["WiFi", "Pet-friendly", "Balcony", "Kitchen", "Heating"],
+    "petPolicy": true,
+    "leaseDuration": "12 months",
+    "availableFrom": "2026-06-15",
+    "liveTouring": {
+      "available": true,
+      "slots": [
+        "2026-06-07T10:00:00Z",
+        "2026-06-07T14:00:00Z",
+        "2026-06-08T10:00:00Z"
+      ]
+    },
+    "createdBy": "user_1",
+    "createdAt": "2026-06-01T12:00:00Z",
+    "likes": ["user_2"],
+    "comments": [
+      {
+        "id": "comment_1",
+        "userId": "user_2",
+        "userName": "sarah_tenant",
+        "text": "This looks amazing! Is it still available?",
+        "createdAt": "2026-06-02T15:30:00Z"
+      }
+    ]
+  },
+  {
+    "id": "listing_2",
+    "title": "Cozy 2-Bedroom Apartment in Kreuzberg",
+    "description": "Spacious 2-bedroom apartment with modern amenities. Great neighborhood with restaurants and shops nearby.",
+    "price": 1200,
+    "currency": "EUR",
+    "location": "Berlin, Germany",
+    "neighborhood": "Kreuzberg",
+    "type": "apartment",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFeet": 750,
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=500"
+    ],
+    "images360": [
+      {
+        "roomName": "Living Room",
+        "imageUrl": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800"
+      }
+    ],
+    "amenities": ["WiFi", "Washing Machine", "Garden Access", "Parking"],
+    "petPolicy": false,
+    "leaseDuration": "24 months",
+    "availableFrom": "2026-07-01",
+    "liveTouring": {
+      "available": true,
+      "slots": [
+        "2026-06-09T10:00:00Z",
+        "2026-06-10T14:00:00Z"
+      ]
+    },
+    "createdBy": "user_1",
+    "createdAt": "2026-06-03T12:00:00Z",
+    "likes": ["user_3"],
+    "comments": []
+  }
+]
