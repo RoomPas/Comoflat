@@ -1,0 +1,35 @@
+[
+  {
+    "id": "user_1",
+    "username": "john_landlord",
+    "email": "john@example.com",
+    "password": "password123",
+    "avatar": "https://i.pravatar.cc/150?img=1",
+    "bio": "Real estate agent in Berlin",
+    "type": "landlord",
+    "phone": "+49123456789",
+    "createdAt": "2026-06-01T10:00:00Z"
+  },
+  {
+    "id": "user_2",
+    "username": "sarah_tenant",
+    "email": "sarah@example.com",
+    "password": "password123",
+    "avatar": "https://i.pravatar.cc/150?img=2",
+    "bio": "Looking for a cozy apartment",
+    "type": "tenant",
+    "phone": "+49987654321",
+    "createdAt": "2026-06-02T10:00:00Z"
+  },
+  {
+    "id": "user_3",
+    "username": "mike_student",
+    "email": "mike@example.com",
+    "password": "password123",
+    "avatar": "https://i.pravatar.cc/150?img=3",
+    "bio": "Student looking for roommate",
+    "type": "student",
+    "phone": "+49555555555",
+    "createdAt": "2026-06-03T10:00:00Z"
+  }
+]
